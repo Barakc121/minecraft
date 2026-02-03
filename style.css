@@ -74,30 +74,34 @@ body {
 
 
 .buttons {
-    z-index: 1;
+    display: flex;
     box-shadow: 5px;
-    background-color: rgb(151, 18, 24);
-    
+    height: 4rem;
+    width: 4rem;
+gap: 15px;
 }
 
 
 .new-world {
-    padding: 10px;
+    /* padding: 10px; */
     background-color: gray;
-    box-shadow: 1px 4px;
-    border: 2px solid gray;
     color: aliceblue;
     border-radius: 5px;
+    padding: 20px;
+    margin: 15px;
+    /* align-items: center; */
+    position: absolute;
 }
 
 .menu {
-    padding: 10px;
-    margin: 12px;
+    /* padding: 10px; */
     background-color: gray;
-    box-shadow: 1px 4px;
-    border: 2px solid gray;
     color: aliceblue;
     border-radius: 5px;
+    padding: 20px;
+    margin: 15px;
+    /* align-items: center; */
+    position: absolute;
 
 }
 
